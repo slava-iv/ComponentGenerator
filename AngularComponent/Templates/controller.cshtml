@@ -1,0 +1,24 @@
+﻿(function () {
+	'use strict';
+
+	angular
+        .module('app')
+        .controller('@(Model.CamelName)Controller', @(Model.CamelName)Controller);
+
+	@(Model.CamelName)Controller.$inject = ['$uibModal', '@(Model.CamelName)Service'];
+
+	function @(Model.CamelName)Controller(dialog, @(Model.CamelName)Service) {
+		var vm = this;
+		vm.action = action;
+
+		init();
+
+		function init() {
+
+		}
+
+		function action() {
+			
+		}
+	}
+})();

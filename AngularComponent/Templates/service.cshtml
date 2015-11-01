@@ -1,0 +1,17 @@
+﻿(function () {
+    'use strict';
+
+    angular
+        .module('app')
+        .service('@(Model.CamelName)Service', @(Model.CamelName)Service);
+
+    @(Model.CamelName)Service.$inject = ['$uibModal', 'userServerApi'];
+
+    function @(Model.CamelName)Service(dialog, userServerApi) {
+        this.load = load;
+
+        function load() {
+            
+        }
+    }
+})();
